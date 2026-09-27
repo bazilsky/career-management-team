@@ -30,6 +30,10 @@ flowchart TD
   DevilDoc -->|fail| Ananth[Ananth]
 ```
 
+
+
+
+
 ## Human checkpoints
 
 - What science to stand behind.
@@ -37,4 +41,3 @@ flowchart TD
 - A document The Devil failed.
 - Any change to remit, recipients, or this path.
 
-Emma Duncan and Charlie Alexander are on the mail. They do not get these checkpoints.
