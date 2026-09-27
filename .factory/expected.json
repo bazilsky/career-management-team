@@ -1,0 +1,36 @@
+{
+  "team_name": "career-management",
+  "architecture_path": "/Users/ananth/Desktop/Agent_design_lab/teams/career-management/ARCHITECTURE.md",
+  "architecture_sha256": "7dcaf1b06caa63b267786ab1544791ac132106b8f6c2e7f4a74cb90d69ca9350",
+  "roles": [
+    {
+      "name": "Mrs. Vanguard",
+      "slug": "mrs-vanguard",
+      "file": ".cursor/agents/career-management--mrs-vanguard.md",
+      "cursor_name": "career-management--mrs-vanguard",
+      "tools_or_access": "Search, mail send, and Drive share. DOI resolve, dedupe, and the send checklist are scripts she runs, not a fourth bot."
+    },
+    {
+      "name": "Mrs. Lantern",
+      "slug": "mrs-lantern",
+      "file": ".cursor/agents/career-management--mrs-lantern.md",
+      "cursor_name": "career-management--mrs-lantern",
+      "tools_or_access": "Read of the paper in chat one. Read of the idea file in chat two. No mail. No Drive share."
+    },
+    {
+      "name": "The Devil",
+      "slug": "the-devil",
+      "file": ".cursor/agents/career-management--the-devil.md",
+      "cursor_name": "career-management--the-devil",
+      "tools_or_access": "Read of the packet for that chat. No mail. No Drive."
+    }
+  ],
+  "expected_files": [
+    "ARCHITECTURE.md",
+    "AGENTS.md",
+    "README.md",
+    ".cursor/agents/career-management--mrs-vanguard.md",
+    ".cursor/agents/career-management--mrs-lantern.md",
+    ".cursor/agents/career-management--the-devil.md"
+  ]
+}
