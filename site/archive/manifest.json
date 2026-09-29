@@ -1,0 +1,12 @@
+{
+  "_how": "To file a week, add archive/YYYY-MM-DD/ named with that week's Monday. Put grant.html, paper.html, and idea.html in it, and leave out a file when that path did not run. Append one object to weeks. monday is YYYY-MM-DD. label is Week of <Monday's date in the form 28 September 2026>. The page sorts by monday, newest first.",
+  "weeks": [
+    {
+      "monday": "2026-09-28",
+      "label": "Week of 28 September 2026",
+      "grant": "archive/2026-09-28/grant.html",
+      "paper": "archive/2026-09-28/paper.html",
+      "idea": "archive/2026-09-28/idea.html"
+    }
+  ]
+}
