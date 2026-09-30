@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Unanswered</title>
+  <title>Particle X Climate</title>
   <meta name="description" content="Weekly grant and paper paths for independent research on solar geoengineering, climate modelling, and nuclear-war climate effects.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,9 +62,11 @@
 
     nav {
       display: flex;
-      gap: 1.25rem;
-      font-size: 0.92rem;
+      flex-wrap: wrap;
+      gap: 0.85rem 1.15rem;
+      font-size: 0.9rem;
       font-weight: 600;
+      justify-content: flex-end;
     }
 
     nav a {
@@ -174,39 +176,49 @@
     article a.card-link:hover { text-decoration: underline; }
 
     .team {
+      list-style: none;
+      margin: 0;
+      padding: 0;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 0;
-      border-top: 1px solid var(--line);
+      gap: 0.7rem;
     }
 
     .person {
-      padding: 1.4rem 1.3rem 1.5rem 0;
-      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: minmax(13rem, 0.72fr) 1.28fr;
+      gap: 1.4rem;
+      align-items: center;
+      padding: 1.15rem 1.35rem 1.2rem 1.25rem;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
     }
 
-    .person + .person {
-      padding-left: 1.3rem;
-      border-left: 1px solid var(--line);
-    }
+    .person:nth-child(1) { box-shadow: inset 4px 0 0 var(--teal); }
+    .person:nth-child(2) { box-shadow: inset 4px 0 0 var(--gold); }
+    .person:nth-child(3) { box-shadow: inset 4px 0 0 var(--rust); }
 
     .role {
-      margin: 0 0 0.35rem;
-      color: var(--rust);
+      margin: 0.25rem 0 0;
       font-size: 0.78rem;
       font-weight: 600;
       letter-spacing: 0.12em;
       text-transform: uppercase;
     }
 
+    .person:nth-child(1) .role { color: var(--teal); }
+    .person:nth-child(2) .role { color: var(--gold); }
+    .person:nth-child(3) .role { color: var(--rust); }
+
     .person h3 {
-      margin: 0 0 0.4rem;
+      margin: 0;
       font-family: Fraunces, Georgia, serif;
       font-weight: 500;
-      font-size: 1.45rem;
+      font-size: 1.7rem;
+      letter-spacing: -0.02em;
     }
 
-    .person p { margin: 0; color: var(--muted); }
+    .person .job { margin: 0; color: var(--muted); }
 
     .remit {
       display: flex;
@@ -237,11 +249,8 @@
 
     @media (max-width: 800px) {
       header { flex-direction: column; align-items: flex-start; }
-      .hero, .cards, .team { grid-template-columns: 1fr; }
-      .person + .person {
-        padding-left: 0;
-        border-left: 0;
-      }
+      .hero, .cards, .person { grid-template-columns: 1fr; }
+      .person { gap: 0.45rem; }
       footer { flex-direction: column; }
     }
   </style>
@@ -249,10 +258,12 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="mark">Unanswered</div>
+      <div class="mark">Particle X Climate</div>
       <nav>
         <a href="#products">Products</a>
         <a href="grant/index.html">Grant path</a>
+        <a href="paper/index.html">Paper path</a>
+        <a href="idea/2026-09-28.html">Idea path</a>
         <a href="#team">Team</a>
         <a href="#remit">Remit</a>
       </nav>
@@ -262,7 +273,7 @@
       <div>
         <p class="kicker">Independent research desk</p>
         <h1>Research Overwatch</h1>
-        <p class="lede">A small specialist team supports independent research on solar geoengineering, Earth-system modelling, nuclear-war climate effects, and aerosol modelling.</p>
+        <p class="lede">A small specialist AI Agent team supporting independent research on solar geoengineering, Earth-system modelling, nuclear-war climate effects, and aerosol modelling.</p>
       </div>
     </section>
 
@@ -272,41 +283,49 @@
         <article>
           <span class="day">Monday</span>
           <h3>Grant path</h3>
-          <p>Two separate searches, then one mail. The grant path ends there. No idea, no document, no application decision.</p>
+          <p>Two separate searches, then one mail. The grant path ends there.</p>
           <a class="card-link" href="grant/index.html">Open Grant path →</a>
         </article>
         <article>
           <span class="day">Thursday</span>
           <h3>Paper path</h3>
-          <p>The same two-search pattern for papers. Every remit match stays in the mail, with a bare link. If nothing clears the checklist, Thursday stops at the path.</p>
+          <p>The same two-search pattern for papers. If nothing clears the checklist, Thursday stops at the path.</p>
+          <a class="card-link" href="paper/index.html">Open Paper path →</a>
         </article>
         <article>
           <span class="day">When it clears</span>
-          <h3>Idea and document</h3>
-          <p>One nominated paper becomes one worked idea, then a grant-agnostic document of that idea. A failed document comes back for a human decision.</p>
+          <h3>Idea path</h3>
+          <p>One nominated paper is used to generate 3 ideas and propose personalised research paths to move forward.</p>
+          <a class="card-link" href="idea/2026-09-28.html">Open Idea path →</a>
         </article>
       </div>
     </section>
 
     <section id="team">
       <h2>The desk</h2>
-      <div class="team">
-        <div class="person">
-          <p class="role">Search and send</p>
-          <h3>Mrs. Vanguard</h3>
-          <p>Runs both weekly searches, sends both paths, nominates one Thursday paper, and files the run.</p>
-        </div>
-        <div class="person">
-          <p class="role">Write</p>
-          <h3>Mrs. Lantern</h3>
-          <p>From one passed paper, writes one idea, then a document that sees only that frozen idea.</p>
-        </div>
-        <div class="person">
-          <p class="role">Attack</p>
-          <h3>The Devil</h3>
-          <p>Passes or kills the nomination, then passes or fails the document. Does not co-author.</p>
-        </div>
-      </div>
+      <ol class="team">
+        <li class="person">
+          <div>
+            <h3>Mrs. Vanguard</h3>
+            <p class="role">Search and send</p>
+          </div>
+          <p class="job">Runs both weekly searches, sends both paths, nominates one Thursday paper, and files the run.</p>
+        </li>
+        <li class="person">
+          <div>
+            <h3>Mrs. Lantern</h3>
+            <p class="role">Write</p>
+          </div>
+          <p class="job">From one passed paper, writes one idea, then a document that sees only that frozen idea.</p>
+        </li>
+        <li class="person">
+          <div>
+            <h3>The Devil</h3>
+            <p class="role">Attack</p>
+          </div>
+          <p class="job">Passes or kills the nomination, then passes or fails the document. Does not co-author.</p>
+        </li>
+      </ol>
     </section>
 
     <section id="remit">

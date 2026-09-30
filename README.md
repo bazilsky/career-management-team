@@ -36,7 +36,7 @@ flowchart TD
 
 ## Site
 
-Edit `site/index_original.html` as the canonical homepage source. Do not change content or copy in `site/index.html` unless explicitly asked to promote or sync.
+Edit `site/index.html` for homepage changes. Leave `site/index_original.html` alone.
 
 ## Human checkpoints
 
