@@ -9,7 +9,7 @@ flowchart TD
   subgraph Roles["Team roles"]
     V[Mrs. Vanguard<br/>coordinate · search · digests<br/>sole email/send]
     L[Mrs. Lantern<br/>shortlist · ideas · directions<br/>not grants · never sends]
-    D[The Devil<br/>PASS/KILL · FAIL critics<br/>ideas only · never sends]
+    D[Dr. Doubt<br/>PASS/KILL · FAIL critics<br/>ideas only · never sends]
   end
 
   subgraph Joke["Digest joke rota only"]
@@ -26,7 +26,7 @@ flowchart TD
     M3 --> M4{Send checks?}
     M4 -->|pass + nonempty| MonDigest[V sends Monday digest<br/>sign-off: Mrs. V, Career Mgmt Team]
     M4 -->|fail / empty| M6[No send · record reason]
-    MonDigest --> MStop([HARD STOP<br/>no Devil · no Lantern · no apply])
+    MonDigest --> MStop([HARD STOP<br/>no Dr. Doubt · no Lantern · no apply])
     M6 --> MStop
   end
 
@@ -69,5 +69,5 @@ flowchart TD
 ## Edges that matter
 - Monday never feeds idea path.
 - Paper digest always sends before idea work; idea path never holds the digest.
-- Devil never touches Monday or shortlist choice; two fresh chats (shortlist vs ideas+doc).
+- Dr. Doubt never touches Monday or shortlist choice; two fresh chats (shortlist vs ideas+doc).
 - Idea-path email: no joke opener; joint note bold dark blue; sign-off Mrs. V, Ananth's Career Management Team.

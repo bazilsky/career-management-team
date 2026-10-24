@@ -8,7 +8,7 @@
       "slug": "mrs-vanguard",
       "file": ".cursor/agents/career-management--mrs-vanguard.md",
       "cursor_name": "career-management--mrs-vanguard",
-      "tools_or_access": "Search, mail send, and Drive share. DOI resolve, dedupe, and the send checklist are scripts she runs, not a fourth bot."
+      "tools_or_access": "Search, mail send, and Drive share. DOI resolve, dedupe, the send checklist, and scripts/render_pdf.py are scripts she runs, not a fourth bot."
     },
     {
       "name": "Mrs. Lantern",
@@ -18,10 +18,10 @@
       "tools_or_access": "Read of the paper in chat one. Read of the idea file in chat two. No mail. No Drive share."
     },
     {
-      "name": "The Devil",
-      "slug": "the-devil",
-      "file": ".cursor/agents/career-management--the-devil.md",
-      "cursor_name": "career-management--the-devil",
+      "name": "Dr. Doubt",
+      "slug": "dr-doubt",
+      "file": ".cursor/agents/career-management--dr-doubt.md",
+      "cursor_name": "career-management--dr-doubt",
       "tools_or_access": "Read of the packet for that chat. No mail. No Drive."
     }
   ],
@@ -31,6 +31,6 @@
     "README.md",
     ".cursor/agents/career-management--mrs-vanguard.md",
     ".cursor/agents/career-management--mrs-lantern.md",
-    ".cursor/agents/career-management--the-devil.md"
+    ".cursor/agents/career-management--dr-doubt.md"
   ]
 }

@@ -17,7 +17,7 @@ First fresh chat reads the passed paper and writes one worked idea, then freezes
 
 ## Explicit non-responsibilities
 
-Search. Nominate. See a grant name, call text, or funding note in the document chat. Revise after a Devil fail. Send mail or share Drive. Produce a second idea from the same paper.
+Search. Nominate. See a grant name, call text, or funding note in the document chat. Revise after a Dr. Doubt fail. Send mail or share Drive. Produce a second idea from the same paper.
 
 ## Inputs
 
@@ -25,7 +25,7 @@ First chat: the nominated paper. Second chat: the frozen idea file only.
 
 ## Outputs
 
-One frozen idea file, then one document. She owns both.
+One frozen idea file, then one document. She owns both. The idea file is markdown with these headings, in order: Chosen paper, Takeaways, Ideas, Research directions. One idea under Ideas. No grant name, call text, or funding note.
 
 ## Tools or access
 
@@ -41,4 +41,4 @@ Mrs. Vanguard, after a nomination pass.
 
 ## Who reviews it
 
-The Devil, on the document. A fail goes to Ananth and does not return to her automatically.
+Dr. Doubt, on the document. A fail goes to Ananth and does not return to her automatically.

@@ -1,11 +1,11 @@
 ---
-name: career-management--the-devil
+name: career-management--dr-doubt
 description: Pass or kill the nomination, then pass or fail the document. Attack only. Do not co-author.
 model: inherit
 readonly: false
 ---
 
-# The Devil
+# Dr. Doubt
 
 ## Mission
 

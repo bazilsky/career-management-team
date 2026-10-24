@@ -10,7 +10,7 @@ The frozen design is `ARCHITECTURE.md`. Do not redesign from this README.
 flowchart TD
   subgraph weekly [Weekly awareness]
     Vanguard[Mrs. Vanguard]
-    Scripts[DOI resolve, dedupe, send checklist]
+    Scripts[DOI resolve, dedupe, send checklist, PDF]
     Vanguard --> Scripts
     Scripts --> GrantMail[Monday grant digest]
     Scripts --> PaperMail[Thursday paper digest]
@@ -20,28 +20,28 @@ flowchart TD
   PaperMail --> Bar
   Bar -->|no| Stop[Digest only]
   Bar -->|yes| Pick[Mrs. Vanguard nominates one paper]
-  Pick --> DevilBar[The Devil on the nomination]
-  DevilBar -->|kill| PaperMail
-  DevilBar -->|pass| Lantern[Mrs. Lantern, fresh chat]
+  Pick --> DoubtBar[Dr. Doubt on the nomination]
+  DoubtBar -->|kill| PaperMail
+  DoubtBar -->|pass| Lantern[Mrs. Lantern, fresh chat]
   Lantern --> Pin[Frozen idea]
   Pin --> Write[Mrs. Lantern, fresh chat, idea file only]
-  Write --> DevilDoc[The Devil on the document]
-  DevilDoc -->|pass| Share[Mrs. Vanguard shares the document]
-  DevilDoc -->|fail| Ananth[Ananth]
+  Write --> DoubtDoc[Dr. Doubt on the document]
+  DoubtDoc -->|pass| Share[Mrs. Vanguard shares the document]
+  DoubtDoc -->|fail| Ananth[Ananth]
 ```
 
 
 
 
 
-## Site
+## PDFs
 
-Edit `site/index.html` for homepage changes. Leave `site/index_original.html` alone.
+Each path is markdown in `runs/YYYY-MM-DD/`. Ask in this project to generate the PDF for the grant path, the paper path, or the idea path. Mrs. Vanguard runs `python3 scripts/render_pdf.py <grant|paper|idea>`. The PDF is written next to the markdown. No HTML is kept. `site/` is an old static copy and is not part of this path.
 
 ## Human checkpoints
 
 - What science to stand behind.
 - Whether to apply, and to which call.
-- A document The Devil failed.
+- A document Dr. Doubt failed.
 - Any change to remit, recipients, or this path.
 
